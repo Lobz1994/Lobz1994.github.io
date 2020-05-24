@@ -1,0 +1,52 @@
+1) ширина .container 1200 px
+https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
+
+это универсальный класс для контейнера, которым мы группируем элементы страницы. К примеру секции у нас все занимаю т 100% ширины экрана. А то что уже внутри где необходимо оборачиваем в контейнер
+
+2) все эти стили для body
+https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
+не нужны
+
+3) для header padding не нужны
+
+.header {
+padding-left: 15px;
+padding-right: 15px;
+}
+
+4) Это как раз место где используем наш универсальный класс .container , точечно этому div добавляем ему display: flex.
+
+Padding тут не обязателен. Ставим этим ссылкам display: block https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
+
+5) это не паддинг, а марджин
+https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
+
+6) padding тут удали, поставь margin-left: auto
+https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
+Sat May 23, 2020 at 5:08 pm
+Profile picture for Oleksandra Mashchenko
+Oleksandra Mashchenko
+7) удали ширины 1200px отовсюду и оберни в контейнер (который шириной 1200px)
+
+из критериев приема ДЗ
+Создан div.container и использован для обёртки и центрирования блоков контента (секции, шапка, футер и т. д.).
+Sat May 23, 2020 at 5:16 pm
+Profile picture for Oleksandra Mashchenko
+Oleksandra Mashchenko
+8) у секций верхний и нижний паддинг по 94px
+
+9) У секции Наша команда фон на всю ширину секции на 100: ширины экрана
+
+10) В секции Наши преимущества и Чем мы занимаемся между элементами не паддинг а марджин
+class="features-items-list"
+class="desktop-list-items"
+
+11) По условию ДЗ у нас верстка фиксированная в пикселях - задай элементов списка ширину (кроме списков соц сетей пока что)
+
+12) в футере у абзаца class="footer-copyright" пробивающий марджин - зачисть
+
+13) .section-portfolio как раз и есть наша обертка div.container
+удали flex-direction: column;
+
+14) для решения проблемы со скрина, который ты выслал удали все эти стили
+https://github.com/Lobz1994/goit-markup-hw-03/blob/568af5091dfadc94b90a0...
